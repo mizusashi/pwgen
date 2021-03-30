@@ -4,5 +4,11 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.exclude": {
+			"**/target": true,
+			"Cargo.lock":true,
+			"ssap.txt":true,
+		},
+	}
 }

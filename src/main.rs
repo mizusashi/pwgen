@@ -8,8 +8,5 @@ fn main() {
     // char_set.push_str("!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~");
     // char_set.push_str("あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐうゑをん");
     let pwgen = PasswordGenerator::new(char_set);
-    println!("{}", pwgen.gen());
-    println!("{}", pwgen.gen());
-    println!("{}", pwgen.gen());
     println!("{}", pwgen.set_range(8, 16).gen());
 }
